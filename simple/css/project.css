@@ -1,0 +1,267 @@
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+@import "https://code.getmdl.io/1.3.0/material.blue-pink.min.css";
+
+.page
+{
+    color: #2b2b2b;
+    background: #F8F8F8;
+}
+
+.page__content
+{
+    min-width: 1100px;
+}
+
+.mdl-layout__container
+{
+    position: relative !important;
+}
+
+.mdl-layout__header
+{
+    background: #fff;
+}
+
+.mdl-layout__header,
+.mdl-layout__header-row .mdl-navigation__link
+{
+    color: #2b2b2b;
+    opacity: 1 ;
+}
+
+.mdl-layout__header .mdl-layout__header-row
+{
+    padding: 0 16px 0 56px;
+}
+
+.logo
+{
+    width: auto;
+    height: 40px;
+}
+
+.content
+{
+    width: 1080px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 40px 0 40px 0;
+}
+
+.search-block
+{
+    padding-left: 40px;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.search-block .mdl-button
+{
+    left: 0;
+}
+
+.search-block .mdl-button .material-icons
+{
+    font-size: 30px;
+}
+
+.search-block .mdl-textfield__label
+{
+    font-size: 24px;
+    left: 40px;
+    width: calc(100% - 40px);
+}
+
+.search-block .mdl-textfield__input
+{
+    font-size: 24px;
+}
+
+.headline
+{
+    text-transform: uppercase;
+}
+
+.headline .mdl-button
+{
+    vertical-align: middle;
+    float: right;
+    margin: -8px 8px 0;
+}
+
+.price,
+.rating
+{
+    margin: 15px 0 0;
+    font-size: 16px;
+    color: black;
+}
+
+.price strong,
+.rating strong
+{
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.rating .material-icons
+{
+    vertical-align: middle;
+    color: #ffe53d;
+}
+
+.mdl-mini-footer
+{
+    padding: 30px 56px;
+    border-top: 2px solid #e9e9e8;
+    background: #fff;
+}
+
+.mdl-mini-footer .mdl-logo
+{
+    color: #2b2b2b;
+}
+
+.mdl-layout__tab-bar
+{
+    border-top: 1px solid #ddd;
+    background: #fff;
+    padding: 0 56px;
+}
+
+.mdl-layout__tab-bar-button
+{
+    background: transparent;
+}
+
+.mdl-layout__tab
+{
+    color: #808080;
+    padding: 0;
+    margin: 0 35px 0 0;
+}
+
+.mdl-layout__tab.is-active
+{
+    color: #2b2b2b !important;
+}
+
+.mdl-menu__container.is-upgraded.is-visible
+{
+    margin: 50px 0 0;
+}
+
+.mdl-layout__content
+{
+    padding: 20px 48px;
+}
+
+.page-content
+{
+    padding: 0;
+}
+
+.sidebar
+{
+    box-sizing: border-box;
+    width: 250px;
+    max-height: 600px !important;
+    background: #fff;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .1)
+}
+
+.service
+{
+    width: calc(100% - 300px);
+}
+
+.left
+{
+    float: left;
+    margin: 0 0 0 10px;
+}
+
+.right
+{
+    float: right;
+    margin: 0 10px 0 0;
+}
+
+.accordion
+{
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion__title
+{
+    position: relative;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    margin: 0;
+}
+
+.accordion__title:hover
+{
+    background: #f7f7f7;
+}
+
+.accordion__content
+{
+    padding: 15px;
+    overflow: hidden;
+}
+
+.sort
+{
+    margin: 0 0 20px;
+}
+
+.sort .mdl-chip
+{
+    margin: 0 20px 0 0;
+    border: 1px solid rgba(76, 101, 146, .3);
+}
+
+.mdl-chip.active
+{
+    background: rgba(253, 237, 173, .5);
+}
+
+.experience
+{
+    font-size: 18px;
+    margin: 5px 10px 0;
+}
+
+.serv-card
+{
+    width: 100%;
+    min-height: 150px;
+    margin-top: 15px;
+}
+
+.serv-card .rating
+{
+    margin: 3px 0 0 20px;
+
+}
+
+.serv-card .mdl-card__supporting-text
+{
+    width: calc(100% - 100px);
+}
+
+.rate
+{
+    margin: -5px 0 0;
+    text-transform: none;
+}
+
+.rate__price
+{
+    font-size: 24px;
+}
+
+

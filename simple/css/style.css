@@ -1,0 +1,18 @@
+@import "//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css";
+
+.navbar .btn
+{
+    margin: 8px 0 8px 15px;
+}
+
+.category-row .col-lg-4,
+.category-row .col-lg-12
+{
+    text-align: center;
+}
+
+.category-row .btn-lg
+{
+    width: 30%;
+    margin-top: 40px;
+}

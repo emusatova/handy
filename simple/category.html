@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+<head>
+    <title>Сантехника</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/project.css">
+</head>
+
+<body class="page__content">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <a class="mdl-layout-title" href="index.html"><img class="logo" src="i/logo.png"></a>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right">
+                    <label class="mdl-button mdl-js-button mdl-button--icon" for="waterfall-exp"><i class="material-icons">search</i></label>
+                    <div class="mdl-textfield__expandable-holder">
+                        <input class="mdl-textfield__input" type="text" name="sample" id="waterfall-exp">
+                    </div>
+                </div>
+
+                <nav class="mdl-navigation">
+                    <a class="mdl-navigation__link" href="">О нас</a>
+                    <a class="mdl-navigation__link" href="">Регистрация</a>
+                    <a class="mdl-navigation__link" href="">Войти</a>
+                </nav>
+            </div>
+
+            <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+                <a href="#scroll-tab-1" class="mdl-layout__tab is-active">Сантехника</a>
+                <a href="#scroll-tab-1" class="mdl-layout__tab">Электроника</a>
+                <a href="#scroll-tab-1" class="mdl-layout__tab">Уход за детьми</a>
+                <a href="#scroll-tab-1" class="mdl-layout__tab">Косметология</a>
+                <a href="#scroll-tab-1" class="mdl-layout__tab">Уборка</a>
+                <a  class=" mdl-js-button mdl-layout__tab" id="menu-lower-right">Еще</a>
+            </div>
+
+            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="menu-lower-right">
+                <li class="mdl-menu__item">Кулинария</li>
+                <li class="mdl-menu__item">Автосервис</li>
+                <li class="mdl-menu__item">Доставка</li>
+            </ul>
+        </header>
+
+        <main class="mdl-layout__content">
+            <section class="mdl-layout__tab-panel is-active" id="scroll-tab-1">
+                <div class="page-content mdl-grid">
+                    <aside class="sidebar mdl-cell">
+                        <div class="accordion">
+                            <p class="accordion__title subcategory">Цена</p>
+                            <div class="accordion__content">
+                                <input class="mdl-slider mdl-js-slider" type="range" id="s1" min="0" max="10" value="4" step="2">
+                                <span class="left">0</span>
+                                <span class="right">10000</span>
+                            </div>
+                        </div>
+
+                        <div class="accordion">
+                            <p class="accordion__title subcategory">Доступность</p>
+                            <div class="accordion__content">
+                                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
+                                    <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input" checked>
+                                    <span class="mdl-checkbox__label">Свободен</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="accordion">
+                            <p class="accordion__title subcategory">Оплата</p>
+                            <div class="accordion__content">
+                                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+                                    <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input" checked>
+                                    <span class="mdl-checkbox__label">Картой</span>
+                                </label>
+                                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-3">
+                                    <input type="checkbox" id="checkbox-3" class="mdl-checkbox__input" checked>
+                                    <span class="mdl-checkbox__label">Наличными</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="accordion">
+                            <p class="accordion__title subcategory">Сертификация</p>
+                            <div class="accordion__content">
+                                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-4">
+                                    <input type="checkbox" id="checkbox-4" class="mdl-checkbox__input" checked>
+                                    <span class="mdl-checkbox__label">Сертифицирован</span>
+                                </label>
+                            </div>
+                        </div>
+                    </aside>
+
+                    <section class="service mdl-cell">
+                        <div class="sort">
+                            <div class="sort__control">
+                                <button type="button" class="mdl-chip">
+                                    <span class="mdl-chip__text">Лучшая цена</span>
+                                </button>
+                                <button type="button" class="mdl-chip">
+                                    <span class="mdl-chip__text">Высший рейтинг</span>
+                                </button>
+                                <button type="button" class="mdl-chip">
+                                    <span class="mdl-chip__text">Больше отзывов</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="serv-card mdl-card mdl-shadow--2dp">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Евлампий Романов
+                                    <span class="rating">
+                                        <i class="material-icons">star</i>
+                                        <i class="material-icons">star</i>
+                                        <i class="material-icons">star</i>
+                                        <i class="material-icons">star</i>
+                                    </span>
+                                </h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                Любой вид сантехнических работ. Трубы, ванны, джакузи, бассейны, унитазы.
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Профиль</a>
+                                <a class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect">Связаться</a>
+                            </div>
+                            <div class="mdl-card__menu">
+                                <button class="mdl-button mdl-js-button rate"> <span class="rate__price">1000Р</span> (час)</button>
+                            </div>
+                        </div>
+
+                        <div class="serv-card mdl-card mdl-shadow--2dp">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Прохор Захаров
+                                    <span class="rating">
+                                        <i class="material-icons">star</i>
+                                        <i class="material-icons">star</i>
+                                        <i class="material-icons">star</i>
+                                    </span>
+                                </h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                Любой вид сантехнических работ. Трубы, ванны, джакузи, бассейны, унитазы.
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Профиль</a>
+                                <a class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect">Связаться</a>
+                            </div>
+                            <div class="mdl-card__menu">
+                                <button class="mdl-button mdl-js-button rate"> <span class="rate__price">800Р</span> (час)</button>
+                            </div>
+                        </div>
+
+                        <div class="serv-card mdl-card mdl-shadow--2dp">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Марфа Васильева
+                                    <span class="rating">
+                                        <i class="material-icons">star</i>
+                                        <i class="material-icons">star</i>
+                                        <i class="material-icons">star</i>
+                                        <i class="material-icons">star</i>
+                                    </span>
+                                </h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                Любой вид сантехнических работ. Трубы, ванны, джакузи, бассейны, унитазы.
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Профиль</a>
+                                <a class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect">Связаться</a>
+                            </div>
+                            <div class="mdl-card__menu">
+                                <button class="mdl-button mdl-js-button rate"> <span class="rate__price">1200Р</span> (час)</button>
+                            </div>
+                        </div>
+
+                        <div class="serv-card mdl-card mdl-shadow--2dp">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Захар Петров
+                                    <span class="rating">
+                                        <i class="material-icons">star</i>
+                                        <i class="material-icons">star</i>
+                                    </span>
+                                </h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                Любой вид сантехнических работ. Трубы, ванны, джакузи, бассейны, унитазы.
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Профиль</a>
+                                <a class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect">Связаться</a>
+                            </div>
+                            <div class="mdl-card__menu">
+                                <button class="mdl-button mdl-js-button rate"> <span class="rate__price">500Р</span> (час)</button>
+                            </div>
+                        </div>
+
+                        <div class="serv-card mdl-card mdl-shadow--2dp">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Евлампий Романов
+                                    <span class="rating">
+                                        <i class="material-icons">star</i>
+                                        <i class="material-icons">star</i>
+                                        <i class="material-icons">star</i>
+                                        <i class="material-icons">star</i>
+                                    </span>
+                                </h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                Любой вид сантехнических работ. Трубы, ванны, джакузи, бассейны, унитазы.
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Профиль</a>
+                                <a class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect">Связаться</a>
+                            </div>
+                            <div class="mdl-card__menu">
+                                <button class="mdl-button mdl-js-button rate"> <span class="rate__price">1000Р</span> (час)</button>
+                            </div>
+                        </div>
+
+                        <div class="serv-card mdl-card mdl-shadow--2dp">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Прохор Захаров
+                                    <span class="rating">
+                                        <i class="material-icons">star</i>
+                                        <i class="material-icons">star</i>
+                                        <i class="material-icons">star</i>
+                                    </span>
+                                </h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                Любой вид сантехнических работ. Трубы, ванны, джакузи, бассейны, унитазы.
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Профиль</a>
+                                <a class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect">Связаться</a>
+                            </div>
+                            <div class="mdl-card__menu">
+                                <button class="mdl-button mdl-js-button rate"> <span class="rate__price">800Р</span> (час)</button>
+                            </div>
+                        </div>
+
+                        <div class="serv-card mdl-card mdl-shadow--2dp">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Марфа Васильева
+                                    <span class="rating">
+                                        <i class="material-icons">star</i>
+                                        <i class="material-icons">star</i>
+                                        <i class="material-icons">star</i>
+                                        <i class="material-icons">star</i>
+                                    </span>
+                                </h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                Любой вид сантехнических работ. Трубы, ванны, джакузи, бассейны, унитазы.
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Профиль</a>
+                                <a class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect">Связаться</a>
+                            </div>
+                            <div class="mdl-card__menu">
+                                <button class="mdl-button mdl-js-button rate"> <span class="rate__price">1200Р</span> (час)</button>
+                            </div>
+                        </div>
+
+                        <div class="serv-card mdl-card mdl-shadow--2dp">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Захар Петров
+                                    <span class="rating">
+                                        <i class="material-icons">star</i>
+                                        <i class="material-icons">star</i>
+                                    </span>
+                                </h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                Любой вид сантехнических работ. Трубы, ванны, джакузи, бассейны, унитазы.
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Профиль</a>
+                                <a class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect">Связаться</a>
+                            </div>
+                            <div class="mdl-card__menu">
+                                <button class="mdl-button mdl-js-button rate"> <span class="rate__price">500Р</span> (час)</button>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </main>
+
+        <footer class="mdl-mini-footer">
+            <div class="mdl-mini-footer__left-section">
+                <div class="mdl-logo">Handy</div>
+                <ul class="mdl-mini-footer__link-list">
+                    <li><a href="mailto:handy@innopolis.ru">Контакты</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+<!-- JS -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<script src="js/project.js"></script>
+</body>
+
+</html>
