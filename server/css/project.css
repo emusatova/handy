@@ -228,7 +228,7 @@ input:-ms-input-placeholder
 
     vertical-align: middle;
 
-    background: url(../../old/i/logo.png) no-repeat;
+    background: url(../i/logo.png) no-repeat;
     background-size: 100%;
 }
 
@@ -387,43 +387,43 @@ input:-ms-input-placeholder
 
 .card_style_1 .card__description:after
 {
-    background: url(../icons/s_1.png) 100% 0 no-repeat;
+    background: url(../i/icons/s_1.png) 100% 0 no-repeat;
     background-size: 30%;
 }
 
 .card_style_2 .card__description:after
 {
-    background: url(../icons/s_2.png) 100% 0 no-repeat;
+    background: url(../i/icons/s_2.png) 100% 0 no-repeat;
     background-size: 30%;
 }
 
 .card_style_3 .card__description:after
 {
-    background: url(../icons/s_3.png) 100% 0 no-repeat;
+    background: url(../i/icons/s_3.png) 100% 0 no-repeat;
     background-size: 30%;
 }
 
 .card_style_4 .card__description:after
 {
-    background: url(../icons/e_1.png) 100% 0 no-repeat;
+    background: url(../i/icons/e_1.png) 100% 0 no-repeat;
     background-size: 30%;
 }
 
 .card_style_5 .card__description:after
 {
-    background: url(../icons/e_2.png) 100% 0 no-repeat;
+    background: url(../i/icons/e_2.png) 100% 0 no-repeat;
     background-size: 30%;
 }
 
 .card_style_6 .card__description:after
 {
-    background: url(../icons/u_1.png) 100% 0 no-repeat;
+    background: url(../i/icons/u_1.png) 100% 0 no-repeat;
     background-size: 30%;
 }
 
 .card_style_7 .card__description:after
 {
-    background: url(../icons/u_2.png) 100% 0 no-repeat;
+    background: url(../i/icons/u_2.png) 100% 0 no-repeat;
     background-size: 30%;
 }
 /* BEGIN Footer */
