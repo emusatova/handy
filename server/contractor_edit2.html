@@ -1,0 +1,228 @@
+<html class="page">
+<head>
+    <title>Handy</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="css/project.css"/>
+</head>
+
+<body class="page__body">
+<header class="header">
+    <div class="wrapper">
+        <a class="logo" href="/"></a>
+        <h1 class="company">Handy</h1>
+
+        <nav class="header__nav">
+            <a class="link" href="#about">О нас</a>
+            <span>
+                    <a class="link" href="#">Войти</a>
+                </span>
+            <span>
+                    <a class="link" href="#">Регистрация</a>
+                </span>
+        </nav>
+
+        <form class="form form_type_search search">
+                <span class="input-control">
+                    <label class="search__toggler" for="search"><i class="material-icons">search</i></label>
+                    <input id="search" class="input search__input" placeholder="Чем могу помочь?"/>
+                </span>
+        </form>
+    </div>
+</header>
+
+<div class="menu">
+    <ul class="menu__list">
+        <li class="menu__item menu__item_state_active"><a class="link" href="#1">Сантехника</a></li>
+        <li class="menu__item"><a class="link" href="#2">Электроника</a></li>
+        <li class="menu__item"><a class="link" href="#3">Уборка</a></li>
+        <li class="menu__item"><a class="link" href="#4">Косметология</a></li>
+        <li class="menu__item"><a class="link" href="#5">Разное</a></li>
+    </ul>
+</div>
+
+<div class="content wrapper clearfix">
+    <aside class="sidebar">
+        <section class="card profile">
+            <header class="profile__header">
+                <div class="profile__photo">
+                    <img class="img" src="http://ufa-room.ru/uploads/ufa/2016/09/t3CxwlpHJsI-200x200.jpg">
+                </div>
+                <h3 class="profile__name">Анна Швабрович</h3>
+                <div class="profile__spec">Профессиональная уборка</div>
+                <div class="profile__price">от 1000р</div>
+                <button class="btn btn-edit" type="button">Настройка страницы</button>
+            </header>
+
+            <div class="profile__body">
+                <section class="profile__section">
+                    <p class="profile__subtitle">Возраст и стаж</p>
+                    <p class="profile__info">
+                        <span class="profile__label">Возраст:</span>
+                        <span class="profile__value">22 года</span>
+                    </p>
+                    <p class="profile__info">
+                        <span class="profile__label">Опыт работы:</span>
+                        <span class="profile__value">3 года</span>
+                    </p>
+                </section>
+                <section class="profile__section">
+                    <p class="profile__subtitle">Активность</p>
+                    <p class="profile__info">
+                        <span class="profile__label">Количество работ на сайте:</span>
+                        <span class="profile__value">15</span>
+                    </p>
+                    <p class="profile__info">
+                        <span class="profile__label">Последняя работа:</span>
+                        <span class="profile__value">20.03.2017</span>
+                    </p>
+                </section>
+                <section class="profile__section">
+                    <p class="profile__subtitle">Местоположение</p>
+                    <p class="profile__info">
+                        <span class="profile__label">Город:</span>
+                        <span class="profile__value">Иннополис</span>
+                    </p>
+                </section>
+                <section class="profile__section">
+                    <span class="tag">уборка квартир</span>
+                    <span class="tag">уборка домов</span>
+                    <span class="tag">швабра</span>
+                    <span class="tag">котики</span>
+                </section>
+            </div>
+        </section>
+    </aside>
+    <div class="main">
+        <section class="card">
+            <h3 class="card__title">Обо мне</h3>
+            <div class="card__description">
+                <form class="form form_type_edit">
+                    <textarea class="textarea" placeholder="Текст, который я хочу изменить, но никак не решаюсь" rows="3"></textarea>
+                    <button class="btn btn-edit">Сохранить</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="card">
+            <h3 class="card__title">Услуги <span class="btn btn-add btn-add_action_service"><i class="material-icons">add</i>Добавить</span></h3>
+            <div class="card__description">
+                <form class="form form_type_edit">
+                    <div class="form__inner">
+                        <div class="control-group service-group">
+                            <input class="input" type="text" placeholder="Название услуги">
+                            <select class="select">
+                                <option class="select__option">1</option>
+                                <option class="select__option">2</option>
+                                <option class="select__option">3</option>
+                            </select>
+                            <input class="input" type="text" placeholder="Цена">
+                            <i class="material-icons btn-del">close</i>
+                        </div>
+                        <div class="control-group service-group">
+                            <input class="input" type="text" placeholder="Название услуги">
+                            <select class="select">
+                                <option class="select__option">1</option>
+                                <option class="select__option">2</option>
+                                <option class="select__option">3</option>
+                            </select>
+                            <input class="input" type="text" placeholder="Цена">
+                            <i class="material-icons btn-del">close</i>
+                        </div>
+                        <div class="control-group service-group">
+                            <input class="input" type="text" placeholder="Название услуги">
+                            <select class="select">
+                                <option class="select__option">1</option>
+                                <option class="select__option">2</option>
+                                <option class="select__option">3</option>
+                            </select>
+                            <input class="input" type="text" placeholder="Цена">
+                            <i class="material-icons btn-del">close</i>
+                        </div>
+                        <div class="control-group service-group">
+                            <input class="input" type="text" placeholder="Название услуги">
+                            <select class="select">
+                                <option class="select__option">1</option>
+                                <option class="select__option">2</option>
+                                <option class="select__option">3</option>
+                            </select>
+                            <input class="input" type="text" placeholder="Цена">
+                            <i class="material-icons btn-del">close</i>
+                        </div>
+                    </div>
+                    <button class="btn btn-edit">Сохранить</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="card">
+            <h3 class="card__title">Примеры работ <i class="material-icons">create</i></h3>
+            <div class="card__description">
+                <div class="slider slider_type_examples">
+                    <div class="slider__item">
+                        <div class="photo">
+                            <img class="img" src="http://www.placeanad.ru/image/472ss.jpg">
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="photo">
+                            <img class="img" src="http://www.placeanad.ru/image/472ss.jpg">
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="photo">
+                            <img class="img" src="http://www.placeanad.ru/image/472ss.jpg">
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="photo">
+                            <img class="img" src="http://www.placeanad.ru/image/472ss.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h3 class="card__title">Отзывы <i class="material-icons">create</i></h3>
+            <div class="card__description">
+
+            </div>
+        </section>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="copyright wrapper"><a class="link" href="#">Handy team</a>, 2017</div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="plugins/select/jquery.nice-select.min.js"></script>
+<script src="plugins/slick/slick.min.js"></script>
+<script src="js/project.js"></script>
+
+<script type="text/javascript">
+    function removeServiceGroup() {
+        $('.service-group .btn-del').on('click', function () {
+            $(this).parent().remove();
+        });
+    }
+
+    $('.btn-add_action_service').on('click', function() {
+        var serviceGroup =
+            '<div class="control-group service-group">' +
+            '<input class="input" type="text" placeholder="Название услуги"> ' +
+            '<select class="select"> ' +
+            '<option class="select__option">1</option>' +
+            '</select> ' +
+            '<input class="input" type="text" placeholder="Цена"> ' +
+            '<i class="material-icons btn-del">close</i>' +
+            '</div>';
+        $(this).parent().parent().find('.form__inner').append(serviceGroup);
+        $('select').niceSelect();
+        removeServiceGroup();
+    });
+</script>
+</body>
+
+</html>
+
